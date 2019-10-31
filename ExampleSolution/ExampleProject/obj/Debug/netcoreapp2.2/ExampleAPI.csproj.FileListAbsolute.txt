@@ -1,0 +1,14 @@
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\bin\Debug\netcoreapp2.2\ExampleAPI.deps.json
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\bin\Debug\netcoreapp2.2\ExampleAPI.runtimeconfig.json
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\bin\Debug\netcoreapp2.2\ExampleAPI.runtimeconfig.dev.json
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\bin\Debug\netcoreapp2.2\ExampleAPI.dll
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\bin\Debug\netcoreapp2.2\ExampleAPI.pdb
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.csprojAssemblyReference.cache
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.csproj.CoreCompileInputs.cache
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.RazorAssemblyInfo.cache
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.RazorAssemblyInfo.cs
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.AssemblyInfoInputs.cache
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.AssemblyInfo.cs
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.RazorTargetAssemblyInfo.cache
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.dll
+C:\Users\Dell\Desktop\dti-compartilha\hands-on-graphql\ExampleSolution\ExampleProject\obj\Debug\netcoreapp2.2\ExampleAPI.pdb
