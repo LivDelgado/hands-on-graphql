@@ -17,10 +17,5 @@ namespace ExampleData.Repositorios
         {
             return SquadData.ListSquads().FirstOrDefault(squad => squad.Nome.Contains(nome));
         }
-
-        public SquadModel ObterSquad(int codigo)
-        {
-            return SquadData.ListSquads().FirstOrDefault(squad => squad.Codigo == codigo);
-        }
     }
 }

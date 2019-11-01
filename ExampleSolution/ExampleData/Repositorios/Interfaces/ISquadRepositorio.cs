@@ -7,7 +7,6 @@ namespace ExampleData.Repositorios.Interfaces
     {
         List<SquadModel> ListarSquads();
         SquadModel ObterSquad(string nome);
-        SquadModel ObterSquad(int codigo);
 
     }
 }
