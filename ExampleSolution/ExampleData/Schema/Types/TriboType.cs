@@ -9,14 +9,14 @@ namespace ExampleData.Schema.Types
     {
         public TriboType(ISquadRepositorio squadRepositorio)
         {
-            Field(tribo => tribo.Nome).Description("Nome da guilda");
+            Field(tribo => tribo.Nome).Description("Nome da tribo");
 
             Field<ListGraphType<SquadType>>(
                "squads",
                resolve: context =>
                {
-                   var livros = squadRepositorio.ListarSquads().Where(squad => squad.NomeTribo == context.Source.Nome);
-                   return livros;
+                   var squads = squadRepositorio.ListarSquads().Where(squad => squad.NomeTribo == context.Source.Nome);
+                   return squads;
                }
            );
         }

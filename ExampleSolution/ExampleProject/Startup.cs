@@ -1,37 +1,36 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Builder;
+﻿using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using GraphiQl;
 using GraphQL;
-using GraphQL.Types;
 using GraphQL.Server;
 using GraphQL.Server.Ui.Voyager;
-using GraphQL.Server.Ui.GraphiQL;
 using GraphQL.Server.Ui.Playground;
 using ExampleData.Schema;
+using ExampleData.Repositorios.Interfaces;
+using ExampleData.Repositorios;
+using ExampleData.Schema.Types;
 
 namespace ExampleProject
 {
     public class Startup
     {
-        // This method gets called by the runtime. Use this method to add services to the container.
-        // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
             // serviços
-            //services.AddSingleton<ILivrosRepositorio, LivrosRepositorio>();
+            services.AddSingleton<ITriboRepositorio, TriboRepositorio>();
+            services.AddSingleton<IGuildaRepositorio, GuildaRepositorio>();
+            services.AddSingleton<ISquadRepositorio, SquadRepositorio>();
 
             // objetos
-            //services.AddSingleton<LivroType>();
+            services.AddSingleton<TriboType>();
+            services.AddSingleton<GuildaType>();
+            services.AddSingleton<SquadType>();
 
             // query e schema
-            //services.AddSingleton<DtiQuery>();
-            //services.AddSingleton<DtiSchema>();
+            services.AddSingleton<DtiQuery>();
+            services.AddSingleton<DtiSchema>();
+
 
             services.AddSingleton<IDependencyResolver>(
                 x => new FuncDependencyResolver(
@@ -47,7 +46,6 @@ namespace ExampleProject
             .AddDataLoader();
         }
 
-        // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
         {
             if (env.IsDevelopment())
