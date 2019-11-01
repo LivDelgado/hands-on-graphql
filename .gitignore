@@ -13,7 +13,7 @@ x64/
 #build/
 
 # .Net Core
-netcoreapp2.2/
+obj/Debug/netcoreapp2.2/
 
 # NuGet Packages
 *.nupkg
