@@ -1,10 +1,11 @@
-﻿using System;
+﻿using ExampleData.Models;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ExampleData.Repositorios.Interfaces
 {
     public interface ITriboRepositorio
     {
+        List<TriboModel> ListarTribos();
+        TriboModel ObterTribo(string nome);
     }
 }

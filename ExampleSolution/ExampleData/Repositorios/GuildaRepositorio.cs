@@ -1,11 +1,20 @@
-﻿using ExampleData.Repositorios.Interfaces;
+﻿using ExampleData.Models;
+using ExampleData.Repositorios.Interfaces;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ExampleData.Repositorios
 {
     public class GuildaRepositorio : IGuildaRepositorio
     {
+        public List<GuildaModel> ListarGuildas()
+        {
+            throw new NotImplementedException();
+        }
+
+        public GuildaModel ObterGuilda(string nome)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

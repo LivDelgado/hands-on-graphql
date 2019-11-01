@@ -1,10 +1,13 @@
-﻿using System;
+﻿using ExampleData.Models;
 using System.Collections.Generic;
-using System.Text;
 
 namespace ExampleData.Repositorios.Interfaces
 {
     public interface ISquadRepositorio
     {
+        List<SquadModel> ListarSquads();
+        SquadModel ObterSquad(string nome);
+        SquadModel ObterSquad(int codigo);
+
     }
 }
