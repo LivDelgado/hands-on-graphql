@@ -1,7 +1,6 @@
 ﻿using ExampleData.Repositorios.Interfaces;
 using ExampleData.Schema.Types;
 using GraphQL.Types;
-using System.Collections.Generic;
 
 namespace ExampleData.Schema
 {

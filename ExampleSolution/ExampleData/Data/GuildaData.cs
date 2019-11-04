@@ -9,7 +9,6 @@ namespace ExampleData.Data
         public static GuildaModel Guilda2 = new GuildaModel { Nome = "Design" };
         public static GuildaModel Guilda3 = new GuildaModel { Nome = "Música" };
 
-
         public static IEnumerable<GuildaModel> ListGuildas()
         {
             return new List<GuildaModel> { Guilda1, Guilda2, Guilda3 };

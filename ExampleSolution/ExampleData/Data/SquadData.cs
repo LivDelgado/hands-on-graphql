@@ -9,7 +9,6 @@ namespace ExampleData.Data
         public static SquadModel Squad2 = new SquadModel { NomeTribo = "Ursos", Nome = "Pardo", NumeroIntegrantes = 2 };
         public static SquadModel Squad3 = new SquadModel { NomeTribo = "Ursos", Nome = "Panda", NumeroIntegrantes = 4 };
         public static SquadModel Squad4 = new SquadModel { NomeTribo = "Ursos", Nome = "Malaio", NumeroIntegrantes = 3 };
-
         public static SquadModel Squad5 = new SquadModel { NomeTribo = "Hogwarts", Nome = "Corvinal", NumeroIntegrantes = 5 };
         public static SquadModel Squad6 = new SquadModel { NomeTribo = "Hogwarts", Nome = "Sonserina", NumeroIntegrantes = 3 };
         public static SquadModel Squad7 = new SquadModel { NomeTribo = "Hogwarts", Nome = "Lufa-Lufa", NumeroIntegrantes = 4 };
